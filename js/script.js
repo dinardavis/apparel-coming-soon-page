@@ -3,9 +3,6 @@ const submitButton = document.querySelector('.submit-btn');
 const errorIcon = document.querySelector('.icon-error');
 const errorMessage = document.querySelector('.error-message');
 
-
-
-
 function emailValidation(input) {
   let regex = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
   if(input === '' || !regex.test(input)) {
@@ -24,7 +21,6 @@ function emailValidation(input) {
 function submitForm() {
   emailInput.value = '';
 }
-
 
 submitButton.addEventListener('click', (e) => {
   e.preventDefault();
