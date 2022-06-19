@@ -111,7 +111,7 @@
 
 @media only screen and (min-width: 900px) {
   .main-container {
-    background-image: url('/images/bg-pattern-desktop.svg');
+    background-image: url('../images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
